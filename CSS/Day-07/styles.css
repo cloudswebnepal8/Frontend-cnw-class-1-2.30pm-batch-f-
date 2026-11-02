@@ -1,0 +1,14 @@
+.child {
+    background-color: aqua;
+    margin: 10px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    /* grid-template-columns: 100px 200px; */
+    grid-template-rows:  100px 200px;   
+}
+
+/* create 6 student cards with details such as image,name,address,batch and faculty .use the concept of grid and set 3 columns in each row. */

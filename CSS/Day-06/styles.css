@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+
+.child{
+    background-color: red;
+    padding: 10px;
+}
+
+.parent{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+/* create a ui for 4 product card including info such as product image,product name,product desc, price and buy button  */

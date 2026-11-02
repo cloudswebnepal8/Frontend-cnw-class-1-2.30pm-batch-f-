@@ -1,0 +1,32 @@
+.relative {
+    background-color: red;
+    padding: 10px;
+    color: white;
+    height: 50px;
+    width: 100px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+
+}
+
+.absolute {
+    background-color: green;
+    padding: 10px;
+    color: white;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    
+
+}
+
+.parent {
+    border: 2px solid gray;
+    margin: 100px;
+    height: 400px;
+    position: relative;
+
+}

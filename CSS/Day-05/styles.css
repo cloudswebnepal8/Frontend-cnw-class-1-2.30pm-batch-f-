@@ -1,0 +1,17 @@
+h1{
+    color: red;
+    text-align: center;
+    text-transform: capitalize;
+    /* text-decoration-line: underline;
+    text-decoration-color: green;
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid; */
+
+
+    /* text-underline-offset: 4px; */
+    text-decoration: 4px underline green ;
+}
+p{
+    color: rgb(100,200,0);
+    text-align: justify;
+}

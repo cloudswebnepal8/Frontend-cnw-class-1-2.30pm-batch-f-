@@ -1,0 +1,10 @@
+body{
+    /* background-color: green;
+    background-image: url("bpic.jpg");
+    background-repeat: no-repeat;
+    background-position: center; */
+    /* background-size: cover; */
+    background: url("bpic.jpg") no-repeat;
+    /* background-size: cover; */
+    background-attachment: fixed;
+}

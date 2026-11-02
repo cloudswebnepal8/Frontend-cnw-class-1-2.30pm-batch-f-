@@ -1,0 +1,32 @@
+/* syntax  */
+/* selector {
+  property: value;
+} */
+/* 
+selectors are of three types:
+1. Element Selector
+2. Class Selector
+3. ID Selector */
+
+
+/* 
+to access an element with id :
+#elementId {
+  property: value;
+} */
+
+
+/* 
+to access an element with class :
+.elementClass {
+  property: value;
+} */
+
+#container {
+    border-width: 5px;
+    border-color: green;
+    border-style: solid;
+}
+
+
+/* create a container with a border of 5px solid gray. The container should include image of product , its name,desc and buy button */

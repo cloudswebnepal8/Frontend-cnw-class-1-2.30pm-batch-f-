@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+
+.fixed{
+    background-color: red;
+    color: white;
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+}
+
+
+
+.sticky{
+    background-color: green;
+    color: white;
+    position: sticky;
+    top: 50px;
+    padding: 10px;
+    width: 100%;
+}

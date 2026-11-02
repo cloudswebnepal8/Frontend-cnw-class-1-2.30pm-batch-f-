@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+.child{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+/* mobile screen  */
+@media (max-width:600px) {
+    .parent{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+
+/* tablet screen  */
+@media (min-width:600px) and (max-width:900px) {
+     .parent{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+/* laptop screen  */
+@media (min-width:900px) and (max-width:1200px) {
+     .parent{
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+    
+}
+
